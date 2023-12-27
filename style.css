@@ -1,0 +1,316 @@
+/*
+2 html5doctor.com Reset Stylesheet
+3 v1.6.1
+4 Last Updated: 2010-09-17
+5 Author: Richard Clark - http://richclarkdesign.com
+6 Twitter: @rich_clark
+7 */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+ b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-size:100%;
+vertical-align:baseline;
+background:transparent;
+ }
+  body {
+line-height:1;
+ }
+
+ article,aside,details,figcaption,figure,
+ footer,header,hgroup,menu,nav,section {
+ display:block;
+ }
+ nav ul {
+ list-style:none;
+ }
+
+ blockquote, q {
+ quotes:none;
+ }
+
+ blockquote:before, blockquote:after,
+ q:before, q:after {
+ content:'';
+ content:none;
+ }
+ a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+ }
+
+/* change colours to suit your needs */
+ ins {
+ background-color: #ff9;
+ color: #000;
+ text-decoration:none;
+ }
+
+ /* change colours to suit your needs */
+  mark {
+ background-color: #ff9;
+ color: #000;
+ font-style:italic;
+ font-weight:bold;
+ }
+
+ del {
+ text-decoration: line-through;
+ }
+
+ abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+ }
+
+ table {
+ border-collapse:collapse;
+ border-spacing:0;
+ }
+
+ /* change border colour to suit your needs */
+ hr {
+ display:block;
+ height:1px;
+ border:0;
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+ }
+
+ input, select {
+ vertical-align:middle;
+ }
+ /*-------------------main code INDEX----------------------------------*/
+ .wrapper{
+    height: 0;
+    width: 0;
+
+}
+header{
+    height: 90px;
+    width: 1361px;;
+    background-color:rgb(248, 209, 157);;
+}
+section .sec_img{
+    height: 500px;
+    width: 1361px;
+}
+.logo{
+    float:left;
+    padding-left: 20px;;
+}
+.logo img{
+    padding-left: 30px;
+}
+li a{
+    color: rgb(42, 25, 68);
+    text-decoration:solid;
+}
+nav{
+     float: right;
+     word-spacing: 80px;
+     padding: 30px;
+}
+nav li{
+    display: inline;
+}
+.box{
+    height: 300px;
+    width: 450px;
+    background-color: antiquewhite;
+    margin: 70px auto;
+    opacity:.7;
+}
+
+body{
+    background-image: url('./image/libaray.jpg');
+    background-size:cover;
+    font-family:sans-serif;
+    background-position: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    min-height: 100vh;
+}
+ 
+ /*-------------------------------STUDENT_LOGIN---------------------*/
+ .log_img{
+    height: 570px;
+ background-image: url("Image/book-59.jpg");
+ background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+ 
+.box1{
+    height:440px;
+    width: 380px;
+    margin: 70px auto;
+    background:rgb(243, 170, 122);
+    opacity: 0.7;
+    color:rgb(19, 10, 10);
+    padding: 20px;
+}
+
+ form .login{
+ margin: auto 20px;
+
+ }
+ .Username input{
+    outline: none;
+    border:0;
+    height: 37px;
+    width: 300px;
+    box-shadow: inset;
+    }
+ 
+ .Password input{
+ outline: none;
+ border:0;
+ height: 34px;
+ width: 299px;
+ box-shadow: inset;
+ }
+ /*------------------admin login--------------*/
+ .admin_img{
+ height: 570px;
+ width:1370px;
+ margin-top: 0px;
+ background-image: url("image/book-59.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+
+ /*-----------------registration----------------------------*/
+ .reg_img{
+ height: 650px;
+ margin-top: 0px;
+ background-image: url("Image/book-59.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ }
+ .box2{
+ height:550px;
+ width: 400px;
+ background:rgb(243, 170, 122);
+  margin: 70px auto;
+ opacity: 0.7;
+ color: rgb(0, 0, 0);;
+ padding: 20px;
+ }
+ form .registration{
+ margin: auto 50px;
+ }
+ input{
+ height: 35px;
+ width: 300px;
+ }
+ form .password{
+ display: inline-block;
+ position: relative;
+ }
+ .password input{
+ padding: 10px 5px;
+ outline: none;
+ border: 0;
+ height: 35px;
+ width: 320px;
+ }
+ .pass-icon{
+ display: inline-block;
+ position: absolute;
+ cursor: pointer;
+ top: 0px;
+ right: 4px;
+ width: 39px;
+ height: 30px;
+ }
+ /*--------------------------book-------------------*/
+
+ section .book_img{
+ height: 300px;
+ margin-top: 0px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position:center ;
+ }
+ .container{
+ height: 200px;
+ width: 1350px;
+ }
+ header{
+ height: 95px;
+ width: 1364px; 
+ background-color:rgb(248, 209, 157); 
+ }
+ 
+ .book{
+ float: left;
+ padding-left: 20px;
+ }
+ .book img{
+ padding-left: 50px;
+ }
+ /*------------------------add books---------------*/
+.add_img{
+ height: 570px; margin-top: 0px;
+ background-image: url("Image/book-59.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ /*------------------edit book---------------*/
+.edit_img{
+height: 570px;
+margin-top: 0px;
+background-image: url("Image/book-59.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+ }
+/*-------------------------search book-----------------------------*/
+ .search_img{
+ height: 570px;
+ margin-top: 0px;
+ background-image: url("Image/book-59.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+ /*--------------------------issue book----------------------*/
+ .issue_img{
+ height: 570px;
+ margin-top: 0px;
+ background-image: url("Image/book-59.jpg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+/*-------------------view book------------------*/
+.view_img{
+height: 570px;
+margin-top: 0px;
+background-image: url("Image/book-59.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
